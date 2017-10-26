@@ -1,0 +1,4 @@
+This is a cheat sheet for code smells.
+
+example usage:
+./codesmells.sh object-orientation-abusers switch-statements

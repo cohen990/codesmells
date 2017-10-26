@@ -1,0 +1,9 @@
+Object-Orientation Abusers
+--------------------------
+
+All these smells are incomplete or incorrect application of object-oriented programming principles.
+
+- switch-statements
+- temporary-field
+- refused-bequest
+- alternative-classes-with-different-interfaces
