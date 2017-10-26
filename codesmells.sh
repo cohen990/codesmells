@@ -13,7 +13,7 @@ print_help_if_asked_for_help() {
 fail_if_invalid_arguments() {
   if [ ! -d $1 ]
   then
-    echo "invalid arguments"
+    echo "invalid arguments try 'codesmells --help'"
     exit 1
   fi
 }
