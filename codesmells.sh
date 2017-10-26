@@ -10,6 +10,7 @@ print_help_if_asked_for_help() {
     exit 0
   fi
 }
+
 fail_if_invalid_arguments() {
   if [ ! -d $1 ]
   then
@@ -17,6 +18,7 @@ fail_if_invalid_arguments() {
     exit 1
   fi
 }
+
 print_help_if_requires_more_arguments() {
   PARENT_DIRECTORY=$1
   CHILD_DIRECTORY=$2
@@ -25,6 +27,10 @@ print_help_if_requires_more_arguments() {
     cat $PARENT_DIRECTORY/.help
     exit 0
   fi
+}
+
+output_description() {
+  cat $1
 }
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -36,7 +42,7 @@ fail_if_invalid_arguments $DIR/$1
 fail_if_invalid_arguments $DIR/$1/$2
 
 print_help_if_requires_more_arguments $DIR $1
-print_help_if_requires_more_arguments $DIR/$1 $2
+print_help_if_requires_more_arguments $DIR/$1 2
 
-cat $DIR/$1/$2/description.md &&
+output_description $DIR/$1/$2
 exit 0
