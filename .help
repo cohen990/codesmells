@@ -6,4 +6,5 @@ This tool is a cheat sheet for code smells. Add the type of code smell you want 
 usage: codesmells
 example usage: codesmells [category]
 	[category]:
+		bloaters
 		object-orientation-abusers
