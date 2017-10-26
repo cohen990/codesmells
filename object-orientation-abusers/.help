@@ -3,9 +3,8 @@ Object-Orientation Abusers
 
 All these smells are incomplete or incorrect application of object-oriented programming principles.
 
-usage:	
-codesmells object-orientation-abusers <option>
-	<option>:
+usage: codesmells object-orientation-abusers [option]
+	[option]:
 		switch-statements
 		temporary-field
 		refused-bequest

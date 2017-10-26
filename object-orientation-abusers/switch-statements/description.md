@@ -16,12 +16,11 @@ As a rule of thumb, when you see switch you should think of polymorphism.
 ##Treatment
 -----------
 
-To isolate `switch` and put it in the right class, you may need Extract Method and then Move Method.
-If a `switch` is based on type code, such as when the program's runtime mode is switched, use Replace Type Code with Subclasses or Replace Type Code with State/Strategy.
-After specifying the inheritance structure, use Replace Conditional with Polymorphism.
-
-If there are not too many conditions in the operator and they all call same method with different parameters, polymorphism will be superfluous. If this case, you can break that method into multiple smaller methods with Replace Parameter with Explicit Methods and change the `switch` accordingly.
-If one of the conditional options is null, use Introduce Null Object.
+- To isolate switch and put it in the right class, you may need Extract Method and then Move Method.
+- If a switch is based on type code, such as when the program's runtime mode is switched, use Replace Type Code with Subclasses or Replace Type Code with State/Strategy.
+- After specifying the inheritance structure, use Replace Conditional with Polymorphism.
+- If there are not too many conditions in the operator and they all call same method with different parameters, polymorphism will be superfluous. If this case, you can break that method into multiple smaller methods with Replace Parameter with Explicit Methods and change the switch accordingly.
+- If one of the conditional options is null, use Introduce Null Object.
 
 ##Payoff
 --------
@@ -31,6 +30,5 @@ Improved code organization.
 ##When to Ignore
 ----------------
 
-When a switch operator performs simple actions, there is no reason to make code changes.
-
-Often switch operators are used by factory design patterns (Factory Method and Abstract Factory) to select a created class.
+- When a switch operator performs simple actions, there is no reason to make code changes.
+- Often switch operators are used by factory design patterns (Factory Method and Abstract Factory) to select a created class.

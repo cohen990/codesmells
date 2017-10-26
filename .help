@@ -1,4 +1,9 @@
-This is a cheat sheet for code smells.
+Code Smells
+===========
 
-example usage:
-./codesmells.sh object-orientation-abusers switch-statements
+This tool is a cheat sheet for code smells. Add the type of code smell you want to learn about as an argument
+
+usage: codesmells
+example usage: codesmells [category]
+	[category]:
+		object-orientation-abusers
