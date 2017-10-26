@@ -11,7 +11,7 @@ fi
 
 test -d $DIR/$1 && 
 	test -d $DIR/$1/$2 &&
-		cat $DIR/$1/$2/.help &&
+		cat $DIR/$1/$2/description.md &&
 		exit 0
 	cat $DIR/$1/.help && 
 	exit 0
