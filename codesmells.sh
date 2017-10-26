@@ -44,5 +44,5 @@ fail_if_invalid_arguments $DIR/$1/$2
 print_help_if_requires_more_arguments $DIR $1
 print_help_if_requires_more_arguments $DIR/$1 $2
 
-output_description $DIR/$1/$2
+output_description $DIR/$1/$2/description.md
 exit 0
