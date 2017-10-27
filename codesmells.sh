@@ -4,11 +4,10 @@
 get_DIR(){
   if [ -L "$0" ]
   then
-    DIR="$( dirname "$(readlink -f "$0")")"
+    DIR="$( dirname "$(readlink "$0")")"
   else
     DIR="$( cd "$( dirname "${bash_source[0]}" )" && pwd )"
   fi
-  echo $DIR
 }
 
 print_help_if_asked_for_help() {
