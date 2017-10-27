@@ -11,3 +11,4 @@ example usage: codesmells [category]
 		change-preventers
 		dispensables
 		couplers
+		other-smells
