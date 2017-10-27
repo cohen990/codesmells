@@ -1,12 +1,22 @@
 #! /bin/bash
 # a script that will use the command line arguments to navigate the directory structure and output the relevant information
 
+get_DIR(){
+  if [ -L "$0" ]
+  then
+    DIR="$( dirname "$(readlink -f "$0")")"
+  else
+    dir="$( cd "$( dirname "${bash_source[0]}" )" && pwd )"
+  fi
+  echo $DIR
+}
+
 print_help_if_asked_for_help() {
-  HELP_DIRECTORY=$1
-  HELP_COMMAND=$2
+  help_directory=$1
+  help_command=$2
   if [ "$2" = "--help" ]
   then
-    cat $HELP_DIRECTORY/.help
+    cat $help_directory/.help
     exit 0
   fi
 }
@@ -33,7 +43,7 @@ output_description() {
   cat $1
 }
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+get_DIR
 
 print_help_if_asked_for_help $DIR $1
 print_help_if_asked_for_help $DIR/$1 $2
