@@ -9,3 +9,4 @@ example usage: codesmells [category]
 		bloaters
 		object-orientation-abusers
 		change-preventers
+		dispensables

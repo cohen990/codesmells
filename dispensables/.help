@@ -1,0 +1,12 @@
+Dispensables
+============
+A dispensable is something pointless and unneeded whose absence would make the code cleaner, more efficient and easier to understand.
+
+usage: codesmells dispensables [option]
+	[option]:
+		comments
+		duplicate-code
+		lazy-class
+		data-class
+		dead-code
+		speculative-generality	
