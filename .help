@@ -1,7 +1,8 @@
 Code Smells
 ===========
 
-This tool is a cheat sheet for code smells. Add the type of code smell you want to learn about as an argument
+This tool is a cheat sheet for code smells.
+All the information about codesmells comes from [source making](https://sourcemaking.com/refactoring/)
 
 usage: codesmells
 example usage: codesmells [category]
