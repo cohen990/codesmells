@@ -1,0 +1,10 @@
+Coupler:
+========
+All the smells in this group contribute to excessive coupling between classes or show what happens if coupling is replaced by excessive delegation.
+
+usage: codesmells couplers [option]
+	[option]:
+		feature-envy
+		inappropriate-intimacy
+		message-chains
+		middle-man
