@@ -10,3 +10,4 @@ example usage: codesmells [category]
 		object-orientation-abusers
 		change-preventers
 		dispensables
+		couplers
