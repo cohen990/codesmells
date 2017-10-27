@@ -8,3 +8,4 @@ example usage: codesmells [category]
 	[category]:
 		bloaters
 		object-orientation-abusers
+		change-preventers
