@@ -6,7 +6,7 @@ get_DIR(){
   then
     DIR="$( dirname "$(readlink -f "$0")")"
   else
-    dir="$( cd "$( dirname "${bash_source[0]}" )" && pwd )"
+    DIR="$( cd "$( dirname "${bash_source[0]}" )" && pwd )"
   fi
   echo $DIR
 }
