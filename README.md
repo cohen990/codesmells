@@ -18,5 +18,9 @@ usage:
 `codesmells bloaters`
 `codesmells bloaters primitive-obsession`
 
+if you already know the name of the smell you can shortcut the category:
+
+`codesmells primitive-obsession`
+
 codesmells has a discoverable CLI - so just run `codesmells` and go from there
 I am sourcing all of my information from https://sourcemaking.com/refactoring - the information there is richer so go ahead and check it out. Command line does have limitations after all ;)
