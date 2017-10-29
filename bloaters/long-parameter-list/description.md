@@ -32,3 +32,5 @@ When to Ignore
 --------------
 
 Do not get rid of parameters if doing so would cause unwanted dependency between classes.
+
+https://sourcemaking.com/refactoring/smells/long-parameter-list

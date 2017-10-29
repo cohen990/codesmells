@@ -7,3 +7,5 @@ usage: codesmells change-preventers [option]
 		divergent-change
 		shotgun-surgery
 		prallel-inheritance-hierarchies
+
+https://sourcemaking.com/refactoring/smells/change-preventers

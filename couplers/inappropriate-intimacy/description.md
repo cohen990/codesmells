@@ -24,3 +24,5 @@ Payoff
 
 - Improves code organization.
 - Simplifies support and code reuse.
+
+https://sourcemaking.com/refactoring/smells/inappropriate-intimacy

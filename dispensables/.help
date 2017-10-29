@@ -10,3 +10,5 @@ usage: codesmells dispensables [option]
 		data-class
 		dead-code
 		speculative-generality	
+	
+https://sourcemaking.com/refactoring/smells/dispensables

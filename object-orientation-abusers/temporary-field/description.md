@@ -24,3 +24,5 @@ Payoff
 --------
 
 Better code clarity and organization.
+
+https://sourcemaking.com/refactoring/smells/temporary-field

@@ -9,3 +9,5 @@ usage: codesmells object-orientation-abusers [option]
 		temporary-field
 		refused-bequest
 		alternative-classes-with-different-interfaces
+
+https://sourcemaking.com/refactoring/smells/oo-abusers

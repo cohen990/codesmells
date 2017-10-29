@@ -27,3 +27,5 @@ When to Ignore
 --------------
 
 Overly aggressive delegate hiding can cause code in which it is hard to see where the functionality is actually occurring. Which is another way of saying, avoid the Middle Man smell as well.
+
+https://sourcemaking.com/refactoring/smells/message-chains

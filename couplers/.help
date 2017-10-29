@@ -8,3 +8,5 @@ usage: codesmells couplers [option]
 		inappropriate-intimacy
 		message-chains
 		middle-man
+
+https://sourcemaking.com/refactoring/smells/couplers

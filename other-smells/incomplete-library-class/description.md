@@ -26,3 +26,5 @@ When to Ignore
 --------------
 
 Extending a library can generate additional work if the changes to the library involve changes in code.
+
+https://sourcemaking.com/refactoring/smells/incomplete-library-class

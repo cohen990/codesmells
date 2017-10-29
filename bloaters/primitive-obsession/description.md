@@ -31,3 +31,5 @@ Payoff
 - Code becomes more flexible thanks to use of objects instead of primitives.
 - Better understandability and organization of code. Operations on particular data are in the same place, instead of being scattered. No more guessing about the reason for all these strange constants and why they are in an array.
 - Easier finding of duplicate code.
+
+https://sourcemaking.com/refactoring/smells/primitive-obsession

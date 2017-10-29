@@ -30,3 +30,5 @@ When to Ignore
 --------------
 
 Sometimes behavior is purposefully kept separate from the class that holds the data. The usual advantage of this is the ability to dynamically change the behavior (see Strategy, Visitor and other patterns).
+
+https://sourcemaking.com/refactoring/smells/feature-envy

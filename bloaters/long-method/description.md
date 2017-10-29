@@ -34,3 +34,5 @@ Performance
 
 - Does an increase in the number of methods hurt performance, as many people claim? In almost all cases the impact is so negligible that it's not even worth worrying about.
 - Plus, now that you have clear and understandable code, you are more likely to find truly effective methods for restructuring code and getting real performance gains if the need ever arises.
+
+https://sourcemaking.com/refactoring/smells/long-method

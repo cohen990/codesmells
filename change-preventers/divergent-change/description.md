@@ -25,3 +25,5 @@ Payoff
 - Improves code organization.
 - Reduces code duplication.
 - Simplifies support.
+
+https://sourcemaking.com/refactoring/smells/divergent-change
