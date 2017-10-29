@@ -21,3 +21,5 @@ Payoff
 ------
 
 Improves code clarity and organization. You will no longer have to wonder why the Dog class is inherited from the Chair class (even though they both have 4 legs).
+
+https://sourcemaking.com/refactoring/smells/refused-bequest

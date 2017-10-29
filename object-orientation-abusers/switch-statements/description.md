@@ -32,3 +32,5 @@ When to Ignore
 
 - When a switch operator performs simple actions, there is no reason to make code changes.
 - Often switch operators are used by factory design patterns (Factory Method and Abstract Factory) to select a created class.
+
+https://sourcemaking.com/refactoring/smells/switch-statements
