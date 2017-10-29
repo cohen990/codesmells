@@ -5,7 +5,7 @@ This tool is a cheat sheet for code smells.
 All the information about codesmells comes from [source making](https://sourcemaking.com/refactoring/)
 
 usage: codesmells
-example usage: codesmells [category|codesmell]
+example usage: codesmells [category|codesmell|--argument]
 	[category]:
 		bloaters
 		object-orientation-abusers
@@ -17,3 +17,6 @@ example usage: codesmells [category|codesmell]
 		primitive-obsession
 		long-method
 		refused-bequest
+	[--argument]:
+		--help
+		--update
