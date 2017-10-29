@@ -38,8 +38,22 @@ print_help_if_requires_more_arguments() {
   fi
 }
 
-output_description() {
-  cat $1
+output_description_if_found() {
+  if [ -f "$1/description.md" ]
+  then
+    cat $1/description.md
+    exit 0
+  fi
+}
+
+shortcut_if_found(){
+  MATCHES="$(ls **/$1/description.md -1 2> /dev/null | wc -l)"
+  if [ "$MATCHES" = 1 ]
+  then
+    SMELL_PATH="$(find `pwd` -name $1)"
+    cat $SMELL_PATH/description.md
+    exit 0
+  fi
 }
 
 get_DIR
@@ -47,11 +61,14 @@ get_DIR
 print_help_if_asked_for_help $DIR $1
 print_help_if_asked_for_help $DIR/$1 $2
 
+output_description_if_found $DIR/$1/$2
+
+shortcut_if_found $1
+
 fail_if_invalid_arguments $DIR/$1
 fail_if_invalid_arguments $DIR/$1/$2
 
 print_help_if_requires_more_arguments $DIR $1
 print_help_if_requires_more_arguments $DIR/$1 $2
 
-output_description $DIR/$1/$2/description.md
-exit 0
+exit 1
