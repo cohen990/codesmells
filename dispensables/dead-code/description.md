@@ -27,3 +27,5 @@ Payoff
 
 - Reduced code size.
 - Simpler support.
+
+https://sourcemaking.com/refactoring/smells/dead-code
