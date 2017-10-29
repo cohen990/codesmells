@@ -5,3 +5,5 @@ Below are the smells which do not fall into any broad category.
 usage: codesmells other-smells [option]
 	[option]:
 		incomplete-library-class
+
+https://sourcemaking.com/refactoring/smells/other
