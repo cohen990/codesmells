@@ -34,3 +34,5 @@ When to Ignore
 Comments can sometimes be useful:
 - When explaining why something is being implemented in a particular way.
 - When explaining complex algorithms (when all other methods for simplifying the algorithm have been tried and come up short).
+
+https://sourcemaking.com/refactoring/smells/comments

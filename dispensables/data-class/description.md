@@ -24,3 +24,5 @@ Payoff
 
 - Improves understanding and organization of code. Operations on particular data are now gathered in a single place, instead of haphazardly throughout the code.
 - Helps you to spot duplication of client code.
+
+https://sourcemaking.com/refactoring/smells/data-class
