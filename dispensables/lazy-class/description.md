@@ -29,3 +29,5 @@ When to Ignore
 --------------
 
 Sometimes a Lazy Class is created in order to delineate intentions for future development, In this case, try to maintain a balance between clarity and simplicity in your code.
+
+https://sourcemaking.com/refactoring/smells/lazy-class

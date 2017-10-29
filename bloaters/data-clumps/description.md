@@ -31,3 +31,5 @@ When to Ignore
 --------------
 
 Passing an entire object in the parameters of a method, instead of passing just its values (primitive types), may create an undesirable dependency between the two classes.
+
+https://sourcemaking.com/refactoring/smells/data-clumps

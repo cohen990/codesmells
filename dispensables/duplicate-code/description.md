@@ -40,3 +40,5 @@ When to Ignore
 --------------
 
 In very rare cases, merging two identical fragments of code can make the code less intuitive and obvious.
+
+https://sourcemaking.com/refactoring/smells/duplicate-code

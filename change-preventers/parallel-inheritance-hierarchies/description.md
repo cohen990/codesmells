@@ -26,3 +26,5 @@ When to Ignore
 --------------
 
 Sometimes having parallel class hierarchies is just a way to avoid even bigger mess with program architecture. If you find that your attempts to de-duplicate hierarchies produce even uglier code, just step out, revert all of your changes and get used to that code.
+
+https://sourcemaking.com/refactoring/smells/parallel-inheritance-hierarchies

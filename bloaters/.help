@@ -9,3 +9,5 @@ usage: codesmells bloaters [option]
 		primitive-obsession
 		long-parameter-list
 		data-clumps		
+
+https://sourcemaking.com/refactoring/smells/bloaters

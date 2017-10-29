@@ -28,3 +28,5 @@ Payoff
 
 - Refactoring of these classes spares developers from needing to remember a large number of attributes for a class.
 - In many cases, splitting large classes into parts avoids duplication of code and functionality.
+
+https://sourcemaking.com/refactoring/smells/large-class

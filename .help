@@ -2,7 +2,6 @@ Code Smells
 ===========
 
 This tool is a cheat sheet for code smells.
-All the information about codesmells comes from [source making](https://sourcemaking.com/refactoring/)
 
 usage: codesmells
 example usage: codesmells [category|codesmell|--argument]
@@ -20,3 +19,5 @@ example usage: codesmells [category|codesmell|--argument]
 	[--argument]:
 		--help
 		--update
+
+https://sourcemaking.com/refactoring/
