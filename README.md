@@ -14,8 +14,11 @@ This puts all the codesmelling information you need right at your fingertips.
 Now you have a cheat sheet for many code smells right at your fingertips. No internet required!
 
 usage:
+
 `codesmells`
+
 `codesmells bloaters`
+
 `codesmells bloaters primitive-obsession`
 
 if you already know the name of the smell you can shortcut the category:
