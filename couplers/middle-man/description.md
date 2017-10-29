@@ -30,3 +30,5 @@ Do not delete middle man that have been created for a reason:
 
 - A middle man may have been added to avoid interclass dependencies.
 - Some design patterns create middle man on purpose (such as Proxy and Decorator).
+
+https://sourcemaking.com/refactoring/smells/middle-man
