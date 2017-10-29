@@ -26,3 +26,4 @@ Payoff
 - Less code duplication.
 - Easier maintenance.
 
+https://sourcemaking.com/refactoring/smells/shotgun-surgery
