@@ -31,3 +31,5 @@ When to Ignore
 --------------
 
 Sometimes merging classes is impossible or so difficult as to be pointless. One example is when the alternative classes are in different libraries that each have their own version of the class.
+
+https://sourcemaking.com/refactoring/smells/alternative-classes-with-different-interfaces
