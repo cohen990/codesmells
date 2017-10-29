@@ -1,6 +1,14 @@
 #! /bin/bash
 # a script that will use the command line arguments to navigate the directory structure and output the relevant information
 
+update_if_requested() {
+  if [ "$1" = "--update" ]
+  then
+    git pull
+    exit 0
+  fi
+}
+
 get_DIR(){
   if [ -L "$0" ]
   then
@@ -55,6 +63,8 @@ shortcut_if_found(){
     exit 0
   fi
 }
+
+update_if_requested $1
 
 get_DIR
 
